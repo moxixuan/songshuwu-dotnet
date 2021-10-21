@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>songshuwu.client</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>lingfang.moxixuan</Authors>
+    <Company>lingfang</Company>
+    <Product>songshuwu.client</Product>
   </PropertyGroup>
 
   <ItemGroup>

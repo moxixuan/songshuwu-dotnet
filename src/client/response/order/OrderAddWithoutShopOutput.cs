@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace songshuwu.client
 {
     public class OrderAddWithoutShopOutput
     {
+        [JsonNumberHandling(JsonNumberHandling.AllowReadingFromString)]
         public long order_id { get; set; }
         public string origin_id { get; set; }
         public prices prices { get; set; }

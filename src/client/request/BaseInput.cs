@@ -4,11 +4,6 @@ using System.Text;
 
 namespace songshuwu.client
 {
-    public abstract class Input
-    {
-
-    }
-
     public class BaseInput
     {
         public string app_key { get; set; }

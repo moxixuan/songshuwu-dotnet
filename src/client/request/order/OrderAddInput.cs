@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace songshuwu.client
+﻿namespace songshuwu.client
 {
-    public class OrderAddWithoutShopInput : Input
+    public class OrderAddInput
     {
         public int dispatch_mode { get; set; }
         public string logistic { get; set; }
