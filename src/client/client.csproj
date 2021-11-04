@@ -7,6 +7,9 @@
     <Authors>lingfang.moxixuan</Authors>
     <Company>lingfang</Company>
     <Product>songshuwu.client</Product>
+    <PackageProjectUrl>https://github.com/moxixuan/songshuwu-dotnet</PackageProjectUrl>
+    <PackageReleaseNotes>松鼠屋sdk</PackageReleaseNotes>
+    <PackageId>songshuwu.dotnet.sdk</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

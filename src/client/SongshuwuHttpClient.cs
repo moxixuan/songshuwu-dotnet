@@ -195,7 +195,7 @@ namespace songshuwu.client
             httpResponse.EnsureSuccessStatusCode();
             var result = await httpResponse.Content.ReadAsStringAsync();
             result = Regex.Unescape(result);
-            _logger.LogInformation(param + " " + result);
+            _logger.LogInformation("songshuwu http" + content.ToString() + param + " " + result);
 
             return JsonSerializer.Deserialize<T>(result/*, new JsonSerializerOptions() { Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping }*/);
         }
