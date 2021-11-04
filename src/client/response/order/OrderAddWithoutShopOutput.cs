@@ -26,8 +26,11 @@ namespace songshuwu.client
     public class detail
     {
         public string logistic { get; set; }
+        [JsonNumberHandling(JsonNumberHandling.AllowReadingFromString)]
         public decimal? distance { get; set; }
+        [JsonNumberHandling(JsonNumberHandling.AllowReadingFromString)]
         public decimal? coupon { get; set; }
+        [JsonNumberHandling(JsonNumberHandling.AllowReadingFromString)]
         public decimal? amount { get; set; }
     }
 }
