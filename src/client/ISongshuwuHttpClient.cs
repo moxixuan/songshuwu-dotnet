@@ -11,7 +11,7 @@ namespace songshuwu.client
         Task<BaseOutput<bool>> ShopUpdate(ShopUpdateInput input);
         Task<BaseOutput<List<ShopQueryOutput>>> ShopQuery(ShopQueryInput input);
         Task<BaseOutput<ShopDetailOut>> ShopDetail(ShopDetailInput input);
-        Task<BaseOutput<MerchantBalanceOutput>> MerchantBalance();
+        Task<BaseOutput<MerchantBalanceOutput>> MerchantBalance(SongshuwuOptions options = null);
 
         Task<BaseOutput<OrderPriceOutput>> OrderPrice(OrderPriceInput input);
         Task<BaseOutput<OrderAddWithoutShopOutput>> AddWithoutShop(OrderAddWithoutShopInput input, SongshuwuOptions options = null);

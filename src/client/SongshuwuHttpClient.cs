@@ -68,7 +68,7 @@ namespace songshuwu.client
         /// 余额查询
         /// </summary>
         /// <returns></returns>
-        public async Task<BaseOutput<MerchantBalanceOutput>> MerchantBalance()
+        public async Task<BaseOutput<MerchantBalanceOutput>> MerchantBalance(SongshuwuOptions options = null)
         {
             return await PostAsync<BaseOutput<MerchantBalanceOutput>>("/merchant/balance/");
         }
