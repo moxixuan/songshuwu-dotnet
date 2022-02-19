@@ -10,6 +10,9 @@
     <PackageProjectUrl>https://github.com/moxixuan/songshuwu-dotnet</PackageProjectUrl>
     <PackageReleaseNotes>松鼠屋sdk</PackageReleaseNotes>
     <PackageId>songshuwu.dotnet.sdk</PackageId>
+    <FileVersion></FileVersion>
+    <AssemblyVersion></AssemblyVersion>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>

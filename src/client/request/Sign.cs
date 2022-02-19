@@ -27,7 +27,7 @@ namespace songshuwu.client
 
     public static class Md5HashHelper
     {
-        internal static string GetMd5Hash(MD5 md5Hash, string input)
+        public static string GetMd5Hash(MD5 md5Hash, string input)
         {
 
             // Convert the input string to a byte array and compute the hash.
@@ -49,7 +49,7 @@ namespace songshuwu.client
         }
 
         // Verify a hash against a string.
-        internal static bool VerifyMd5Hash(MD5 md5Hash, string input, string hash)
+        public static bool VerifyMd5Hash(MD5 md5Hash, string input, string hash)
         {
             // Hash the input.
             string hashOfInput = GetMd5Hash(md5Hash, input);
